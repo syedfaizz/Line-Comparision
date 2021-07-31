@@ -6,7 +6,8 @@ namespace Line_Comparision
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            LineComparison lineComparison = new LineComparison();
+            lineComparison.length();
         }
     }
 }
